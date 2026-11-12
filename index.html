@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonu Swathwick Ande | Embedded Systems Engineer &amp; Firmware Developer</title>
+  
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Portfolio of Sonu Swathwick Ande — Embedded Systems Engineer, Firmware Developer, and Robotics Specialist. e-Yantra AIR 5, STM32, Nordic nRF52, Embedded C, and Hardware Validation.">
+  <meta name="keywords" content="Sonu Swathwick Ande, Embedded Firmware Engineer, STM32, Nordic nRF52, ARM Cortex-M, e-Yantra AIR 5, RYMO Technologies, KiCad, Embedded C, Robotics">
+  <meta name="author" content="Sonu Swathwick Ande">
+  <meta property="og:title" content="Sonu Swathwick Ande | Embedded Systems & Firmware Engineer">
+  <meta property="og:description" content="Engineering intelligent systems through firmware, electronics, and autonomous robotics. Explore real-world projects, live oscilloscope lab, and technical credentials.">
+  <meta property="og:type" content="website">
+  
+  <!-- Google Fonts: Inter, JetBrains Mono, Syne -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Ambient Silicon Glow Backgrounds -->
+  <div class="ambient-glow glow-1"></div>
+  <div class="ambient-glow glow-2"></div>
+
+  <!-- =================================================================
+       NAVIGATION HEADER
+       ================================================================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-chip-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="4" y="4" width="16" height="16" rx="2"/>
+            <rect x="9" y="9" width="6" height="6"/>
+            <path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/>
+          </svg>
+        </div>
+        <span class="brand-text">SONU<span>.ANDE</span> <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 400;">// FW_CORE</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#lab" class="nav-link">Interactive Lab</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#credentials" class="nav-link">Education &amp; Awards</a></li>
+          <li><a href="#terminal" class="nav-link">UART CLI</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button id="themeToggleBtn" class="btn btn-secondary btn-icon-only" aria-label="Toggle Dark/Light Mode" title="Toggle Theme">
+          <span id="themeIcon">☀️</span>
+        </button>
+
+        <!-- Resume Modal Trigger -->
+        <a href="#resume" class="btn btn-outline btn-sm" data-open-resume>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+            <polyline points="10 9 9 9 8 9"/>
+          </svg>
+          Resume
+        </a>
+
+        <!-- Mobile Nav Toggle -->
+        <button class="mobile-nav-toggle" aria-label="Open Navigation Menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =================================================================
+         HERO SECTION
+         ================================================================= -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-status-pill">
+            <span class="pulse-dot"></span>
+            <span>Available for Embedded Firmware &amp; Hardware R&amp;D Roles</span>
+          </div>
+
+          <h1 class="hero-title">
+            Engineering Systems at the <span class="gradient-text">Intersection of Silicon &amp; Code</span>.
+          </h1>
+
+          <div class="hero-subtitle">
+            <span>Embedded Systems</span>
+            <span class="sep">•</span>
+            <span>Firmware Developer</span>
+            <span class="sep">•</span>
+            <span>Robotics Enthusiast</span>
+          </div>
+
+          <p class="hero-description">
+            I am <strong>Sonu Swathwick Ande</strong>, an Electronics &amp; Communication engineer specializing in microcontroller firmware, hardware-level peripheral integration, real-world robotics, and deterministic signal validation. From bare-metal ARM Cortex-M register programming to autonomous robots and medical rehabilitation devices.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              Explore Projects
+            </a>
+            <a href="#experience" class="btn btn-secondary">
+              View Experience
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="hero-social-links">
+            <a href="https://linkedin.com/in/sonuande" target="_blank" rel="noopener noreferrer" class="social-pill" title="LinkedIn Profile">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+              linkedin/in/sonuande
+            </a>
+            <a href="https://github.com/SONUANDE" target="_blank" rel="noopener noreferrer" class="social-pill" title="GitHub Repositories">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              github/SONUANDE
+            </a>
+            <span class="social-pill" style="border-style:dashed;">
+              <span style="color:var(--accent-cyan)">📍</span> Chirala, AP, India
+            </span>
+          </div>
+        </div>
+
+        <!-- Hero Silicon Visualizer Widget -->
+        <div class="hero-silicon-card">
+          <div class="silicon-card-header">
+            <div class="silicon-chip-title">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="4" y="4" width="16" height="16" rx="2"/>
+                <circle cx="12" cy="12" r="3"/>
+              </svg>
+              <span>TARGET: NORDIC_nRF52832</span>
+            </div>
+            <span class="badge badge-emerald">
+              <span class="pulse-dot"></span> RUNNING
+            </span>
+          </div>
+
+          <div class="telemetry-grid">
+            <div class="telemetry-cell">
+              <div class="telemetry-label">
+                <span>Core Clock</span>
+                <span>FPU</span>
+              </div>
+              <div class="telemetry-value active">64.0 MHz</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-label">
+                <span>Interconnect</span>
+                <span>HW-PPI</span>
+              </div>
+              <div class="telemetry-value active">PPI + EasyDMA</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-label">
+                <span>VDD Rail</span>
+                <span>ADC Vref</span>
+              </div>
+              <div class="telemetry-value">3.30 V ±0.02</div>
+            </div>
+            <div class="telemetry-cell">
+              <div class="telemetry-label">
+                <span>Debug Interface</span>
+                <span>SWD</span>
+              </div>
+              <div class="telemetry-value active">SEGGER J-Link</div>
+            </div>
+          </div>
+
+          <!-- Mini Oscilloscope Canvas -->
+          <div class="mini-scope-wrapper">
+            <div class="mini-scope-header">
+              <span>LIVE LOGIC ANALYZER // CH1: SPI_SCK</span>
+              <span style="color: var(--accent-emerald);">TRIGGER: AUTO</span>
+            </div>
+            <canvas id="heroMiniScope"></canvas>
+            <div class="mini-scope-footer">
+              <span>TIME: 500ns / div</span>
+              <span>VOLTS: 1.0V / div</span>
+              <span>100% DETERMINISTIC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         HIGHLIGHT METRICS BAR
+         ================================================================= -->
+    <section class="highlights-section">
+      <div class="container">
+        <div class="highlights-bar">
+          <div class="highlight-item">
+            <div class="highlight-number">AIR <span>5</span></div>
+            <div class="highlight-label">e-Yantra Robotics 2025–26</div>
+            <div class="highlight-sub">National Rank • Team Lead (CropDrop Bot)</div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-number">~<span>80</span>%</div>
+            <div class="highlight-label">Test Effort Reduction</div>
+            <div class="highlight-sub">Automated Validation @ RYMO Technologies</div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-number"><span>3</span>+</div>
+            <div class="highlight-label">Microcontroller Families</div>
+            <div class="highlight-sub">STM32 (Cortex-M), Nordic nRF52, ESP32</div>
+          </div>
+          <div class="highlight-item">
+            <div class="highlight-number"><span>9.69</span></div>
+            <div class="highlight-label">Academic Foundations</div>
+            <div class="highlight-sub">PUC CGPA • B.Tech ECE (RGUKT Ongole)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         ABOUT & ENGINEERING PHILOSOPHY SECTION
+         ================================================================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 01. IDENTITY &amp; CODE OF ENGINEERING</div>
+          <h2 class="section-title">Bridging Pure Silicon to Autonomous Systems</h2>
+          <p class="section-subtitle">
+            An electronics engineering undergraduate at RGUKT Ongole with practical industry internship experience, national robotics standing, and an obsession with deterministic hardware-software co-design.
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 2.5rem; margin-bottom: 3.5rem; align-items: center;">
+          <div>
+            <h3 style="font-size: 1.6rem; margin-bottom: 1rem;">Who I Am &amp; How I Build</h3>
+            <p style="margin-bottom: 1.25rem; line-height: 1.7;">
+              I approach engineering as an unbroken system-development cycle: <strong>understand the requirement, deconstruct the silicon architecture, design the schematics, implement bare-metal or RTOS firmware, measure behavior with oscilloscopes, and rigorously validate the result.</strong>
+            </p>
+            <p style="margin-bottom: 1.25rem; line-height: 1.7;">
+              My strongest positioning is an <strong>Embedded Firmware Engineer</strong> with practical hardware validation, board bring-up, and autonomous robotics experience. Whether configuring timer registers, streaming ADC samples via EasyDMA, or tuning motor PID loops for national robotics arenas, I enjoy getting as close to the bare metal as possible.
+            </p>
+            <p style="line-height: 1.7;">
+              Beyond microcontrollers, I actively explore VLSI &amp; SoC design, agricultural automation, and marine robotics. I believe good engineering is not just about writing clean code—it is about building physical systems that operate reliably in the real world.
+            </p>
+          </div>
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 1.75rem;">
+            <h4 style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--accent-cyan); margin-bottom: 1rem; text-transform: uppercase;">
+              ⚡ Leadership &amp; Personal Traits
+            </h4>
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+              <div style="display: flex; gap: 0.75rem;">
+                <span style="color:var(--accent-emerald); font-size: 1.2rem;">🎖️</span>
+                <div>
+                  <strong style="display:block; font-size: 0.95rem;">Robotics Team Lead</strong>
+                  <span style="font-size: 0.825rem; color:var(--text-secondary);">Led a 4-member multidisciplinary engineering squad to AIR 5 in e-Yantra.</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.75rem;">
+                <span style="color:var(--accent-cyan); font-size: 1.2rem;">🛡️</span>
+                <div>
+                  <strong style="display:block; font-size: 0.95rem;">National Cadet Corps (NCC)</strong>
+                  <span style="font-size: 0.825rem; color:var(--text-secondary);">Instilled high discipline, adaptability, mission ownership, and teamwork.</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.75rem;">
+                <span style="color:var(--accent-amber); font-size: 1.2rem;">🥁</span>
+                <div>
+                  <strong style="display:block; font-size: 0.95rem;">Marching Band Commander</strong>
+                  <span style="font-size: 0.825rem; color:var(--text-secondary);">Directing rhythm, synchrony, precision timing, and team leadership under pressure.</span>
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.75rem;">
+                <span style="color:var(--accent-violet); font-size: 1.2rem;">⚽</span>
+                <div>
+                  <strong style="display:block; font-size: 0.95rem;">Competitive Football Player</strong>
+                  <span style="font-size: 0.825rem; color:var(--text-secondary);">Passionate about spatial awareness, strategic teamwork, and rapid decisions.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 Engineering Credos -->
+        <h3 style="text-align: center; font-size: 1.4rem; margin-bottom: 1.75rem;">The Five Engineering Principles I Live By</h3>
+        <div class="credo-grid">
+          <div class="credo-card">
+            <div class="credo-num">PRINCIPLE 01</div>
+            <h4>Understand Before Implementing</h4>
+            <p>Deconstruct hardware datasheets and peripheral registers rather than relying blindly on third-party black-box libraries.</p>
+          </div>
+          <div class="credo-card">
+            <div class="credo-num">PRINCIPLE 02</div>
+            <h4>Connect Hardware &amp; Software</h4>
+            <p>Treat firmware, board traces, analog noise, sensors, and mechanical actuation as one tightly coupled unified system.</p>
+          </div>
+          <div class="credo-card">
+            <div class="credo-num">PRINCIPLE 03</div>
+            <h4>Test What You Build</h4>
+            <p>Use digital storage oscilloscopes, logic analyzers, and automated test harnesses as first-class citizens of daily development.</p>
+          </div>
+          <div class="credo-card">
+            <div class="credo-num">PRINCIPLE 04</div>
+            <h4>Learn By Building</h4>
+            <p>Explore ideas through physical prototypes, real-world breadboards, custom PCBs, and iterative failure analysis.</p>
+          </div>
+          <div class="credo-card">
+            <div class="credo-num">PRINCIPLE 05</div>
+            <h4>Design for the Real World</h4>
+            <p>Prioritize determinism, fault recovery, watchdogs, and safety in rehabilitation, field robotics, and industrial applications.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         PROFESSIONAL EXPERIENCE SECTION (RYMO TECHNOLOGIES)
+         ================================================================= -->
+    <section id="experience" class="section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 02. INDUSTRIAL TRACK RECORD</div>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">
+            Applying low-level embedded firmware engineering and automated hardware testing to medical-grade technology.
+          </p>
+        </div>
+
+        <div class="exp-timeline">
+          <div class="exp-card">
+            <div class="exp-card-header">
+              <div>
+                <h3 class="exp-role-title">Embedded Systems Intern</h3>
+                <div class="exp-company">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                  RYMO Technologies
+                </div>
+              </div>
+              <div class="exp-period">
+                <span>June 2026 – September 2026 • Onsite</span>
+              </div>
+            </div>
+
+            <p class="exp-summary">
+              Engineered embedded firmware and led hardware validation workflows for a <strong>Functional Electrical Stimulation (FES) rehabilitation device</strong> built on the Nordic nRF52 microcontroller platform. FES requires medical-grade reliability, strict charge-balanced stimulation pulses, and high-precision timing to rehabilitate paralyzed or weakened neuromuscular pathways.
+            </p>
+
+            <div class="exp-metrics-strip">
+              <div class="exp-metric-box">
+                <span class="exp-metric-val">~80%</span>
+                <span class="exp-metric-txt">Manual testing effort reduction via automated validation workflows</span>
+              </div>
+              <div class="exp-metric-box">
+                <span class="exp-metric-val">ARM M4</span>
+                <span class="exp-metric-txt">Nordic nRF52832 SoC core with FPU and hardware PPI</span>
+              </div>
+              <div class="exp-metric-box">
+                <span class="exp-metric-val">µs Jitter</span>
+                <span class="exp-metric-txt">Microsecond-level deterministic pulse timing and DAC voltage control</span>
+              </div>
+            </div>
+
+            <ul class="exp-bullets">
+              <li>
+                <strong>Firmware Architecture &amp; Development:</strong> Developed and tested robust firmware for the Nordic nRF52832 (ARM Cortex-M4 @ 64 MHz), leveraging low-power timer interrupts and event-driven peripheral integration.
+              </li>
+              <li>
+                <strong>Hardware-Assisted Peripherals:</strong> Implemented hardware automation with PPI (Programmable Peripheral Interconnect), GPIOTE, SAADC analog acquisitions, SPI communication with external DACs, and EasyDMA memory buffers.
+              </li>
+              <li>
+                <strong>Stimulation Pulse Modulation:</strong> Engineered precise frequency, pulse-width, and DAC output voltage controls to generate safe, therapeutic biphasic pulses.
+              </li>
+              <li>
+                <strong>Hardware Validation &amp; Bring-up:</strong> Performed board bring-up, solder inspection, and circuit troubleshooting using 4-channel oscilloscopes and logic analyzers to verify waveform shape, rise/fall times, and communication integrity.
+              </li>
+              <li>
+                <strong>Test Automation Impact:</strong> Designed repeatable test pipelines and automated serial test-data capture that reduced repetitive manual test effort by approximately 80% compared with legacy manual workflows.
+              </li>
+            </ul>
+
+            <div class="exp-tech-tags">
+              <span class="tech-pill">Nordic nRF52832</span>
+              <span class="tech-pill">ARM Cortex-M4</span>
+              <span class="tech-pill">Embedded C</span>
+              <span class="tech-pill">PPI / EasyDMA</span>
+              <span class="tech-pill">SAADC &amp; SPI DAC</span>
+              <span class="tech-pill">Digital Oscilloscopes</span>
+              <span class="tech-pill">Logic Analyzers</span>
+              <span class="tech-pill">Medical FES Hardware</span>
+              <span class="tech-pill">Test Automation (~80%)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         PROJECTS PORTFOLIO SECTION
+         ================================================================= -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 03. ENGINEERING ARTIFACTS</div>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">
+            Autonomous robotics, low-power bare-metal platforms, analog hardware design, and physics simulation.
+          </p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects (6)</button>
+          <button class="filter-btn" data-filter="robotics">Autonomous Robotics</button>
+          <button class="filter-btn" data-filter="firmware">Embedded &amp; Firmware</button>
+          <button class="filter-btn" data-filter="hardware">Hardware &amp; Analog</button>
+          <button class="filter-btn" data-filter="simulation">Robotics Simulation</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid">
+          
+          <!-- PROJECT 1: e-Yantra CropDrop Bot (FEATURED) -->
+          <div class="project-card featured-card" data-category="robotics">
+            <div class="project-card-banner">
+              <div class="circuit-canvas-bg"></div>
+              <div class="project-badge-overlay">
+                <span class="badge badge-amber">Signature Project</span>
+                <span class="badge badge-emerald">Competition Finalist</span>
+              </div>
+              <div class="project-rank-star">
+                ★ ALL INDIA RANK 5 (2025–26)
+              </div>
+              <div class="project-banner-center">
+                <div class="project-banner-icon">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                </div>
+                <div class="project-chip-id">STM32F103RB • CUBEMX • PID &amp; Q-LEARNING</div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">e-Yantra CropDrop Bot — Autonomous Agricultural System</h3>
+              <div class="project-category-sub">Autonomous Robotics &amp; Control Systems • Team Lead</div>
+              <p class="project-desc">
+                Led a 4-member multidisciplinary engineering squad to achieve All India Rank 5 in the prestigious e-Yantra Robotics Competition (IIT Bombay). Built an autonomous robot that navigates defined agricultural tracks using multi-sensor IR reflectance arrays, identifies targets via TCS3200 RGB colour sensing, acquires crops using an electromagnetic mechanism, and executes precise delivery. Designed a custom low-CG chassis in Fusion 360 and developed closed-loop PID control and Q-table navigation logic.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">STM32 Nucleo-F103RB</span>
+                <span class="tech-pill">STM32CubeIDE / HAL</span>
+                <span class="tech-pill">PID Line Follower</span>
+                <span class="tech-pill">Q-Learning Exploration</span>
+                <span class="tech-pill">RGB &amp; Proximity Sensors</span>
+                <span class="tech-pill">Electromagnet Actuator</span>
+                <span class="tech-pill">Fusion 360 CAD</span>
+              </div>
+
+              <div class="project-card-footer">
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">
+                  Role: Team Lead &amp; FW Engineer
+                </span>
+                <button class="project-action-link" data-open-project="eyantra">
+                  View Technical Deep Dive ➔
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Nordic nRF52 Real-Time Control Platform -->
+          <div class="project-card" data-category="firmware">
+            <div class="project-card-banner">
+              <div class="project-badge-overlay">
+                <span class="badge">Low Power &amp; RTOS</span>
+              </div>
+              <div class="project-banner-center">
+                <div class="project-banner-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="project-chip-id">nRF52832 • PPI • SAADC • SPI DAC</div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Nordic nRF52 Real-Time Control Platform</h3>
+              <div class="project-category-sub">Bare-Metal Firmware &amp; Peripheral Interconnect</div>
+              <p class="project-desc">
+                Architected an event-driven embedded platform on the Nordic nRF52832 (ARM Cortex-M4) and PCA10040. Employs hardware PPI and EasyDMA to link timers and SAADC acquisitions without waking the CPU, streaming data via SPI to an external MCP4921 12-bit DAC, and broadcasting telemetry over BLE S132 SoftDevice.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">nRF52832 SoC</span>
+                <span class="tech-pill">PPI &amp; GPIOTE</span>
+                <span class="tech-pill">EasyDMA Buffers</span>
+                <span class="tech-pill">MCP4921 SPI DAC</span>
+                <span class="tech-pill">S132 BLE Stack</span>
+                <span class="tech-pill">SEGGER RTT</span>
+              </div>
+
+              <div class="project-card-footer">
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">
+                  Dev: SEGGER Embedded Studio
+                </span>
+                <button class="project-action-link" data-open-project="nrf52platform">
+                  View Deep Dive ➔
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: Medical FES Firmware (RYMO) -->
+          <div class="project-card" data-category="firmware">
+            <div class="project-card-banner">
+              <div class="project-badge-overlay">
+                <span class="badge badge-emerald">Medical Device</span>
+              </div>
+              <div class="project-banner-center">
+                <div class="project-banner-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  </svg>
+                </div>
+                <div class="project-chip-id">FES REHABILITATION • ~80% TEST CUT</div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">FES Rehabilitation Device Firmware</h3>
+              <div class="project-category-sub">Medical Embedded &amp; Hardware Validation</div>
+              <p class="project-desc">
+                Developed production firmware and hardware test benches for Functional Electrical Stimulation neuro-rehabilitation therapy at RYMO Technologies. Implemented microsecond-accurate biphasic stimulation pulses, digital impedance safeguards, and built automated test suites cutting validation effort by ~80%.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">nRF52832 Platform</span>
+                <span class="tech-pill">Biphasic Pulse Timing</span>
+                <span class="tech-pill">Oscilloscopes &amp; Analyzers</span>
+                <span class="tech-pill">Board Bring-Up</span>
+                <span class="tech-pill">Automated Test Harness</span>
+              </div>
+
+              <div class="project-card-footer">
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">
+                  Industry Internship
+                </span>
+                <button class="project-action-link" data-open-project="fesdevice">
+                  View Deep Dive ➔
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: PacBot Autonomous Maze Navigation -->
+          <div class="project-card" data-category="simulation">
+            <div class="project-card-banner">
+              <div class="project-badge-overlay">
+                <span class="badge">Kinematics &amp; AI</span>
+              </div>
+              <div class="project-banner-center">
+                <div class="project-banner-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                    <line x1="9" y1="3" x2="9" y2="21"></line>
+                    <line x1="15" y1="3" x2="15" y2="21"></line>
+                    <line x1="3" y1="9" x2="21" y2="9"></line>
+                    <line x1="3" y1="15" x2="21" y2="15"></line>
+                  </svg>
+                </div>
+                <div class="project-chip-id">MUJOCO • PYTHON • BFS • MQTT</div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">PacBot Autonomous Maze Navigation</h3>
+              <div class="project-category-sub">Robotics Simulation &amp; Path Planning</div>
+              <p class="project-desc">
+                Designed a robotics simulation in MuJoCo physics engine with real-time MQTT message broker. Engineered Breadth-First Search (BFS) path planning for optimal grid routing, PID wall-following for collision avoidance, and gyroscope-based angular turn controllers for high-speed maze navigation.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">Python 3</span>
+                <span class="tech-pill">MuJoCo Physics</span>
+                <span class="tech-pill">BFS Algorithm</span>
+                <span class="tech-pill">PID Wall-Following</span>
+                <span class="tech-pill">Gyroscope Feedback</span>
+                <span class="tech-pill">MQTT Broker</span>
+              </div>
+
+              <div class="project-card-footer">
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">
+                  Simulation &amp; Control
+                </span>
+                <button class="project-action-link" data-open-project="pacbot">
+                  View Deep Dive ➔
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 5: 4-Channel ROV Leak Detection System -->
+          <div class="project-card" data-category="hardware">
+            <div class="project-card-banner">
+              <div class="project-badge-overlay">
+                <span class="badge badge-amber">Hardware PCB</span>
+              </div>
+              <div class="project-banner-center">
+                <div class="project-banner-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                    <path d="M2 12h20"></path>
+                  </svg>
+                </div>
+                <div class="project-chip-id">KICAD PCB • ANALOG SENSING • SUBSEA</div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">4-Channel Subsea ROV Leak Detector</h3>
+              <div class="project-category-sub">Analog Electronics &amp; Marine PCB Design</div>
+              <p class="project-desc">
+                High-reliability electronic protection subsystem for underwater Remotely Operated Vehicles. Designed schematic and PCB layout in KiCad with multi-channel comparator sensing, corrosion mitigation bias, noise-immune RC filter stages, independent visual channel LEDs, and fail-safe alarm relay output.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">KiCad EDA</span>
+                <span class="tech-pill">Analog Comparators</span>
+                <span class="tech-pill">PCB Layout</span>
+                <span class="tech-pill">Noise Immunity</span>
+                <span class="tech-pill">Subsea ROV Safety</span>
+              </div>
+
+              <div class="project-card-footer">
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">
+                  Hardware R&amp;D
+                </span>
+                <button class="project-action-link" data-open-project="rovleak">
+                  View Deep Dive ➔
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 6: Autonomous Agricultural Rover -->
+          <div class="project-card" data-category="robotics">
+            <div class="project-card-banner">
+              <div class="project-badge-overlay">
+                <span class="badge badge-emerald">Field Robotics</span>
+              </div>
+              <div class="project-banner-center">
+                <div class="project-banner-icon">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </svg>
+                </div>
+                <div class="project-chip-id">ESP32 • ESP32-CAM • SOIL TELEMETRY</div>
+              </div>
+            </div>
+
+            <div class="project-card-body">
+              <h3 class="project-title">Autonomous Agricultural Soil-Monitoring Rover</h3>
+              <div class="project-category-sub">Mobile Robotics &amp; IoT Prototyping</div>
+              <p class="project-desc">
+                Field automation rover integrating ESP32 dual-core controller, ESP32-CAM live streaming, high-ground clearance rigid PVC chassis, and a servo-driven single-DOF soil moisture probe deployer. Includes an automated 12V RS-585 pump for targeted root-zone irrigation and weeding actuation.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="tech-pill">ESP32 &amp; FreeRTOS</span>
+                <span class="tech-pill">ESP32-CAM Video</span>
+                <span class="tech-pill">Servo Actuation</span>
+                <span class="tech-pill">Soil Moisture Sensing</span>
+                <span class="tech-pill">12V Water Pump</span>
+                <span class="tech-pill">Web Telemetry</span>
+              </div>
+
+              <div class="project-card-footer">
+                <span style="font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">
+                  Zero-to-Prototype
+                </span>
+                <button class="project-action-link" data-open-project="agrover">
+                  View Deep Dive ➔
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         INTERACTIVE HARDWARE & FIRMWARE LAB (UNIQUE TO SONU'S PORTFOLIO)
+         ================================================================= -->
+    <section id="lab" class="section lab-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 04. VIRTUAL HARDWARE WORKBENCH</div>
+          <h2 class="section-title">Interactive Firmware &amp; Hardware Lab</h2>
+          <p class="section-subtitle">
+            Experience real-world embedded signal analysis and register manipulation right in your browser.
+          </p>
+        </div>
+
+        <div class="lab-container-card">
+          <!-- Lab Navigation Tabs -->
+          <div class="lab-tabs-bar">
+            <button class="lab-tab-btn active" data-tab="tabOscilloscope">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+              </svg>
+              <span>Multi-Channel Oscilloscope &amp; Logic Analyzer</span>
+            </button>
+            <button class="lab-tab-btn" data-tab="tabRegisters">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="2"></rect>
+                <line x1="7" y1="2" x2="7" y2="22"></line>
+                <line x1="17" y1="2" x2="17" y2="22"></line>
+              </svg>
+              <span>ARM Register Bitfield Explorer (TIMx_CR1)</span>
+            </button>
+          </div>
+
+          <!-- TAB 1: OSCILLOSCOPE WORKBENCH -->
+          <div id="tabOscilloscope" class="lab-pane active">
+            <div class="scope-rack">
+              <div class="scope-screen-chassis">
+                <div class="scope-bezel-header">
+                  <div>
+                    <span style="color:#ef4444; margin-right:4px;">●</span> RIGOL DS1054Z EMULATION // 50 MHz DIGITAL STORAGE SCOPE
+                  </div>
+                  <div class="scope-readout-strip">
+                    <span id="scopeTimebaseReadout">TIME: 2.0ms/div</span>
+                    <span id="scopeVoltReadout">VOLTS: 1.0V/div</span>
+                    <span style="color:var(--accent-emerald);">TRIG: CH1 EDGE ↑</span>
+                  </div>
+                </div>
+
+                <canvas id="labOscilloscope"></canvas>
+
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-top:0.75rem; font-family:var(--font-mono); font-size:0.75rem; color:var(--text-muted);">
+                  <div style="display:flex; gap:1.25rem;">
+                    <span style="color:var(--accent-cyan);">■ CH1: SIGNAL_PRIMARY</span>
+                    <span style="color:var(--accent-emerald);">■ CH2: SECONDARY / MOSI</span>
+                    <span style="color:var(--accent-amber);">■ CH3: CLOCK / TRIGGER</span>
+                  </div>
+                  <span>STATUS: SAMPLING @ 1 GSa/s</span>
+                </div>
+              </div>
+
+              <!-- Scope Controls Panel -->
+              <div class="scope-controls-panel">
+                <div>
+                  <div class="control-group-title">Select Active Signal</div>
+                  <button class="signal-select-btn active" data-signal="spi">
+                    <strong>1. SPI Bus Transmission</strong>
+                    <div style="font-size:0.7rem; color:var(--text-muted);">CS# + SCK Clock + MOSI Data Packet</div>
+                  </button>
+                  <button class="signal-select-btn" data-signal="pwm">
+                    <strong>2. Motor PWM Drive (20 kHz)</strong>
+                    <div style="font-size:0.7rem; color:var(--text-muted);">STM32 TIM1 PWM waveform with 65% duty</div>
+                  </button>
+                  <button class="signal-select-btn" data-signal="fes">
+                    <strong>3. FES Medical Biphasic Pulse</strong>
+                    <div style="font-size:0.7rem; color:var(--text-muted);">RYMO Rehabilitation charge-balanced pulse</div>
+                  </button>
+                  <button class="signal-select-btn" data-signal="uart">
+                    <strong>4. UART Serial Packet (115200)</strong>
+                    <div style="font-size:0.7rem; color:var(--text-muted);">Start + 8 Data bits ("SONU") + Stop bit</div>
+                  </button>
+                </div>
+
+                <div style="border-top:1px solid var(--border-subtle); padding-top:1rem;">
+                  <div class="control-group-title">Scope Adjustments</div>
+                  <div class="knob-row" style="margin-bottom:0.75rem;">
+                    <span class="knob-label">Horizontal Scale:</span>
+                    <input type="range" id="scopeTimebaseSlider" class="knob-slider" min="0.4" max="2.5" step="0.1" value="1.0">
+                  </div>
+                  <div class="knob-row" style="margin-bottom:1rem;">
+                    <span class="knob-label">Vertical Scale:</span>
+                    <input type="range" id="scopeVoltSlider" class="knob-slider" min="0.5" max="1.6" step="0.1" value="1.0">
+                  </div>
+                  <button id="scopePauseBtn" class="btn btn-sm btn-secondary" style="width:100%;">
+                    ⏸ PAUSE RUN
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: REGISTER BITFIELD EXPLORER -->
+          <div id="tabRegisters" class="lab-pane">
+            <div class="register-explorer-card">
+              <div class="reg-header">
+                <div>
+                  <div class="reg-title">STM32 Timer Control Register 1 (TIMx_CR1)</div>
+                  <div style="font-size:0.8rem; color:var(--text-muted); font-family:var(--font-mono);">
+                    Base Offset: 0x00 | 16-bit Hardware Peripheral Control Register
+                  </div>
+                </div>
+                <div style="display:flex; align-items:center; gap:0.75rem;">
+                  <span style="font-family:var(--font-mono); font-size:0.85rem; color:var(--text-secondary);">Hex Value:</span>
+                  <div id="regHexValue" class="reg-hex-val">0x0081</div>
+                </div>
+              </div>
+
+              <p style="font-size:0.875rem; color:var(--text-secondary); margin-bottom:1.25rem;">
+                Click any bit below (0–15) to toggle the register state and observe how firmware control flags and hardware behavior update:
+              </p>
+
+              <!-- 16-Bit Grid -->
+              <div id="regBitfieldGrid" class="bitfield-grid"></div>
+
+              <!-- Field Breakdown Cards -->
+              <h4 style="font-family:var(--font-mono); font-size:0.85rem; color:var(--accent-cyan); text-transform:uppercase; margin-bottom:0.85rem;">
+                Bitfield Definitions &amp; Live Configuration Status:
+              </h4>
+              <div id="regBreakdown" class="reg-field-breakdown"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         TECHNICAL SKILLS MATRIX SECTION
+         ================================================================= -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 05. TECHNICAL MATRIX</div>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">
+            Categorized technical capabilities honed through bare-metal development, academic labs, and production internships.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Category 1: Languages & Low-Level -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Programming &amp; Low-Level</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Embedded C</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>C</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>C++</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Python</span>
+              <span class="skill-tag-item"><span class="skill-dot"></span>ARM Assembly</span>
+              <span class="skill-tag-item"><span class="skill-dot"></span>FreeRTOS Concepts</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Microcontrollers -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                  <rect x="9" y="9" width="6" height="6"></rect>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Microcontrollers &amp; SoCs</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>STM32F103 / Nucleo</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Nordic nRF52832</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>ARM Cortex-M4 / M3</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>ESP32 / ESP32-CAM</span>
+              <span class="skill-tag-item"><span class="skill-dot"></span>Arduino / AVR</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Peripherals & Protocols -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="18" cy="5" r="3"></circle>
+                  <circle cx="6" cy="12" r="3"></circle>
+                  <circle cx="18" cy="19" r="3"></circle>
+                  <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                  <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Peripherals &amp; Protocols</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>PPI (Peripheral Interconnect)</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>EasyDMA / DMA</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>GPIO / GPIOTE</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>ADC / SAADC</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Timers &amp; PWM</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>UART / USART</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>SPI Interface</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>I²C Bus</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>BLE (Bluetooth Low Energy)</span>
+              <span class="skill-tag-item"><span class="skill-dot"></span>MQTT Protocol</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Hardware & Bring-up -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Hardware Bring-Up &amp; Test</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Digital Storage Oscilloscopes</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Logic Analyzers</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>SEGGER J-Link / RTT</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Board Bring-Up &amp; Soldering</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Sensor Interfacing</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Circuit Debugging</span>
+              <span class="skill-tag-item"><span class="skill-dot"></span>Automated Test Frameworks</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Toolchains & EDA -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Tools, IDEs &amp; EDA</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>STM32CubeIDE</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>SEGGER Embedded Studio</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Nordic nRF5 SDK 17.1.0</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>KiCad EDA</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Autodesk Fusion 360 CAD</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>VS Code &amp; Linux CLI</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>Git Version Control</span>
+            </div>
+          </div>
+
+          <!-- Category 6: Robotics & Simulation -->
+          <div class="skill-category-card">
+            <div class="skill-category-header">
+              <div class="skill-category-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polygon points="12 8 8 12 12 16 12 8"></polygon>
+                </svg>
+              </div>
+              <h3 class="skill-category-title">Robotics &amp; Control Algorithms</h3>
+            </div>
+            <div class="skill-tags-list">
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>PID Control Loop Tuning</span>
+              <span class="skill-tag-item"><span class="skill-dot"></span>Q-Learning &amp; Q-Tables</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>BFS Path Planning</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>MuJoCo Physics Simulation</span>
+              <span class="skill-tag-item"><span class="skill-dot mastered"></span>CoppeliaSim Kinematics</span>
+              <span class="skill-tag-item"><span class="skill-dot"></span>Differential Drive Kinematics</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-top: 1.5rem; display: flex; align-items: center; justify-content: center; gap: 1.5rem; font-family: var(--font-mono); font-size: 0.78rem; color: var(--text-muted);">
+          <span><span class="skill-dot mastered" style="display:inline-block; margin-right:4px;"></span> Hands-On / Production Validated</span>
+          <span><span class="skill-dot" style="display:inline-block; margin-right:4px;"></span> Solid Working Knowledge</span>
+          <span><span class="skill-dot learning" style="display:inline-block; margin-right:4px;"></span> Currently Deepening (VLSI/FPGA)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         VLSI, SOC & SEMICONDUCTOR HORIZONS
+         ================================================================= -->
+    <section class="section" style="background: var(--bg-secondary); padding: 3.5rem 0;">
+      <div class="container">
+        <div style="background: linear-gradient(135deg, rgba(13, 28, 44, 0.9), rgba(18, 38, 62, 0.95)); border: 1px solid rgba(0, 229, 255, 0.3); border-radius: var(--radius-lg); padding: 2.25rem; display: grid; grid-template-columns: 1.3fr 0.7fr; gap: 2rem; align-items: center;">
+          <div>
+            <div class="badge badge-amber" style="margin-bottom:0.75rem;">Complementary Focus Area</div>
+            <h3 style="font-size: 1.6rem; margin-bottom: 0.75rem;">VLSI, SoC &amp; Semiconductor Design Horizons</h3>
+            <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.65; margin-bottom: 1rem;">
+              Understanding how instructions map to actual silicon transistors enables superior firmware optimization. In addition to embedded systems, I have undertaken structured training covering ASIC/FPGA fundamentals, ARM Cortex-M architecture, and RISC-V instruction set principles.
+            </p>
+            <div style="display:flex; flex-wrap:wrap; gap:0.5rem;">
+              <span class="tech-pill">Maven Silicon VLSI/SoC Training</span>
+              <span class="tech-pill">NIELIT Calicut VLSI Certification</span>
+              <span class="tech-pill">ASIC &amp; FPGA Fundamentals</span>
+              <span class="tech-pill">RISC-V Architecture</span>
+              <span class="tech-pill">Digital System Design</span>
+            </div>
+          </div>
+
+          <div style="background: rgba(2, 6, 23, 0.7); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 1.25rem; font-family:var(--font-mono); font-size:0.8rem;">
+            <div style="color:var(--accent-cyan); font-weight:700; margin-bottom:0.5rem;">// LEARNING HORIZONS:</div>
+            <div style="color:var(--text-secondary); line-height:1.7;">
+              ▸ RTL Design &amp; Verilog simulation<br>
+              ▸ FPGA-based custom peripheral controllers<br>
+              ▸ RISC-V open-source core studies<br>
+              ▸ Hardware/software co-verification
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         EDUCATION & SIGNATURE ACHIEVEMENTS
+         ================================================================= -->
+    <section id="credentials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">// 06. FOUNDATIONS &amp; HONORS</div>
+          <h2 class="section-title">Education &amp; Achievements</h2>
+          <p class="section-subtitle">
+            Strong academic rigor and recognized competitive achievements.
+          </p>
+        </div>
+
+        <div class="edu-achieve-split">
+          <!-- Education Column -->
+          <div class="split-col">
+            <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; display:flex; align-items:center; gap:0.5rem;">
+              <span style="color:var(--accent-cyan);">🎓</span> Academic Background
+            </h3>
+
+            <div class="edu-item-card">
+              <h4 class="edu-degree">B.Tech in Electronics &amp; Communication Engineering</h4>
+              <div class="edu-school">Rajiv Gandhi University of Knowledge Technologies (RGUKT), Ongole</div>
+              <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:0.75rem;">
+                Core Foundations: Digital Electronics, Microprocessors &amp; Microcontrollers, Control Systems, Signals &amp; Systems, Computer Architecture, Electronic Measurements, Analog Circuits.
+              </p>
+              <div class="edu-meta">
+                <span>Expected Graduation: 2027</span>
+                <strong style="color:var(--accent-emerald);">CGPA: 8.4 / 10</strong>
+              </div>
+            </div>
+
+            <div class="edu-item-card">
+              <h4 class="edu-degree">Pre-University Course (PUC)</h4>
+              <div class="edu-school">Rajiv Gandhi University of Knowledge Technologies (RGUKT)</div>
+              <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:0.75rem;">
+                Two-year integrated pre-engineering curriculum with primary focus on Mathematics, Physics, Chemistry, and Computing fundamentals.
+              </p>
+              <div class="edu-meta">
+                <span>Completed: 2023</span>
+                <strong style="color:var(--accent-emerald);">CGPA: 9.69 / 10</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achievements Column -->
+          <div class="split-col">
+            <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem; display:flex; align-items:center; gap:0.5rem;">
+              <span style="color:var(--accent-amber);">🏆</span> Honors &amp; Certifications
+            </h3>
+
+            <div class="edu-item-card" style="border-left: 3px solid var(--accent-amber);">
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.25rem;">
+                <h4 class="edu-degree" style="color:var(--accent-amber);">e-Yantra Robotics Competition (2025–26)</h4>
+                <span class="badge badge-amber">AIR 5</span>
+              </div>
+              <div class="edu-school">IIT Bombay National Robotics Championship</div>
+              <p style="font-size:0.85rem; color:var(--text-secondary);">
+                Led team to All India Rank 5 developing the CropDrop Bot with autonomous line tracking, color sensing, and electromagnetic actuation on STM32 hardware.
+              </p>
+            </div>
+
+            <div class="edu-item-card" style="border-left: 3px solid var(--accent-cyan);">
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.25rem;">
+                <h4 class="edu-degree">NXP AIM (AI in Mobility) 2025</h4>
+                <span class="badge">Finalist</span>
+              </div>
+              <div class="edu-school">NXP Semiconductors</div>
+              <p style="font-size:0.85rem; color:var(--text-secondary);">
+                Selected as Regional Finalist for embedded mobility and automotive electronics solutions.
+              </p>
+            </div>
+
+            <div class="edu-item-card" style="border-left: 3px solid var(--accent-emerald);">
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.25rem;">
+                <h4 class="edu-degree">VLSI / SoC System Design Training</h4>
+                <span class="badge badge-emerald">Certified</span>
+              </div>
+              <div class="edu-school">Maven Silicon &amp; NIELIT Calicut</div>
+              <p style="font-size:0.85rem; color:var(--text-secondary);">
+                Structured certifications covering ASIC/FPGA design flow, ARM architecture, and RISC-V fundamentals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         A-Z ENGINEERING PROFILE (AUTHENTIC TOUCH FROM RESUME)
+         ================================================================= -->
+    <section class="az-section" style="background: var(--bg-secondary);">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <div class="section-tag">// 07. ALPHABETICAL ENGINEERING DNA</div>
+          <h2 class="section-title">The A–Z Engineering Profile</h2>
+          <p class="section-subtitle">
+            A comprehensive mapping of my core engineering focus areas from A to Z.
+          </p>
+        </div>
+
+        <div class="az-grid">
+          <div class="az-card"><div class="az-letter">A</div><div class="az-theme">Autonomous Robotics</div></div>
+          <div class="az-card"><div class="az-letter">B</div><div class="az-theme">Bare-Metal Programming</div></div>
+          <div class="az-card"><div class="az-letter">C</div><div class="az-theme">Embedded C &amp; C++</div></div>
+          <div class="az-card"><div class="az-letter">D</div><div class="az-theme">Digital Electronics</div></div>
+          <div class="az-card"><div class="az-letter">E</div><div class="az-theme">Embedded Systems</div></div>
+          <div class="az-card"><div class="az-letter">F</div><div class="az-theme">Firmware Development</div></div>
+          <div class="az-card"><div class="az-letter">G</div><div class="az-theme">GPIO &amp; Interfaces</div></div>
+          <div class="az-card"><div class="az-letter">H</div><div class="az-theme">Hardware Debugging</div></div>
+          <div class="az-card"><div class="az-letter">I</div><div class="az-theme">IoT &amp; Instrumentation</div></div>
+          <div class="az-card"><div class="az-letter">J</div><div class="az-theme">J-Link RTT Logging</div></div>
+          <div class="az-card"><div class="az-letter">K</div><div class="az-theme">KiCad &amp; PCB Design</div></div>
+          <div class="az-card"><div class="az-letter">L</div><div class="az-theme">Low-Power Systems</div></div>
+          <div class="az-card"><div class="az-letter">M</div><div class="az-theme">Microcontrollers</div></div>
+          <div class="az-card"><div class="az-letter">N</div><div class="az-theme">Nordic nRF52 SoC</div></div>
+          <div class="az-card"><div class="az-letter">O</div><div class="az-theme">Oscilloscope Validation</div></div>
+          <div class="az-card"><div class="az-letter">P</div><div class="az-theme">Peripherals &amp; PID</div></div>
+          <div class="az-card"><div class="az-letter">Q</div><div class="az-theme">Q-Learning Algorithms</div></div>
+          <div class="az-card"><div class="az-letter">R</div><div class="az-theme">Robotics &amp; Real-Time</div></div>
+          <div class="az-card"><div class="az-letter">S</div><div class="az-theme">STM32 &amp; SPI Master</div></div>
+          <div class="az-card"><div class="az-letter">T</div><div class="az-theme">Timers &amp; Test Auto</div></div>
+          <div class="az-card"><div class="az-letter">U</div><div class="az-theme">UART Communications</div></div>
+          <div class="az-card"><div class="az-letter">V</div><div class="az-theme">VLSI &amp; SoC Horizons</div></div>
+          <div class="az-card"><div class="az-letter">W</div><div class="az-theme">Wireless &amp; BLE</div></div>
+          <div class="az-card"><div class="az-letter">X</div><div class="az-theme">Experimental Prototyping</div></div>
+          <div class="az-card"><div class="az-letter">Y</div><div class="az-theme">e-Yantra AIR 5</div></div>
+          <div class="az-card"><div class="az-letter">Z</div><div class="az-theme">Zero-to-Prototype</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         BUILT-IN UART SERIAL TERMINAL CLI (ENGINEER FIRST FEATURE)
+         ================================================================= -->
+    <section id="terminal" class="terminal-section">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <div class="section-tag">// 08. FIRMWARE SERIAL MONITOR</div>
+          <h2 class="section-title">UART Interactive Serial CLI</h2>
+          <p class="section-subtitle">
+            For recruiters and engineers: inspect my resume, pinouts, and system logs through a virtual serial connection.
+          </p>
+        </div>
+
+        <div class="terminal-window">
+          <div class="terminal-titlebar">
+            <div class="terminal-controls">
+              <span class="term-dot red"></span>
+              <span class="term-dot yellow"></span>
+              <span class="term-dot green"></span>
+            </div>
+            <div class="terminal-title">ttyUSB0 — sonu@nRF52-FW (115200 8N1)</div>
+            <div class="terminal-baud">SYS_CLK: 64MHz • TX/RX OK</div>
+          </div>
+
+          <div id="termOutputBody" class="terminal-body"></div>
+
+          <div style="background:#040914; padding:0.6rem 1rem; border-top:1px solid #1e293b; display:flex; align-items:center;">
+            <span class="term-prompt" style="font-family:var(--font-mono); font-size:0.85rem; margin-right:8px;">sonu@nRF52-FW:~$</span>
+            <input type="text" id="termCommandLineInput" class="terminal-input" placeholder="Type a command (e.g. 'help', 'skills', 'eyantra', 'cat resume', 'pinout')..." autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         CONTACT & CONNECT SECTION
+         ================================================================= -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <div class="contact-card-grid">
+          <!-- Left Info Column -->
+          <div class="contact-info-col">
+            <div>
+              <div class="section-tag">// 09. CONNECT &amp; COLLABORATE</div>
+              <h2 class="contact-headline">Let's Build Reliable Systems Together</h2>
+              <p style="color:var(--text-secondary); line-height:1.65;">
+                I am actively seeking roles in <strong>Embedded Firmware Development, Embedded Software Engineering, Hardware R&amp;D, and Robotics Engineering</strong>. Whether you have an open position or want to discuss microcontroller architecture, reach out!
+              </p>
+            </div>
+
+            <div class="contact-channel-list">
+              <a href="https://linkedin.com/in/sonuande" target="_blank" rel="noopener noreferrer" class="channel-item">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="channel-meta">
+                  <span>Professional Network</span>
+                  <strong>linkedin.com/in/sonuande</strong>
+                </div>
+              </a>
+
+              <a href="https://github.com/SONUANDE" target="_blank" rel="noopener noreferrer" class="channel-item">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </div>
+                <div class="channel-meta">
+                  <span>Source Code Repositories</span>
+                  <strong>github.com/SONUANDE</strong>
+                </div>
+              </a>
+
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-meta" style="flex-grow:1;">
+                  <span>Direct Email Contact</span>
+                  <strong>sonuande@gmail.com</strong>
+                </div>
+                <button id="copyEmailBtn" class="btn btn-sm btn-secondary" title="Copy Email">
+                  Copy
+                </button>
+              </div>
+
+              <div class="channel-item">
+                <div class="channel-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="channel-meta">
+                  <span>Current Base Location</span>
+                  <strong>Chirala, Andhra Pradesh, India</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Form Column -->
+          <div>
+            <form id="contactForm" class="contact-form">
+              <h3 style="font-size: 1.25rem; margin-bottom: 1.25rem;">Send a Direct Message</h3>
+
+              <div class="form-group">
+                <label for="senderName" class="form-label">Your Name / Organization</label>
+                <input type="text" id="senderName" class="form-control" placeholder="e.g. Sarah Jenkins (Senior Eng Recruiter)" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderEmail" class="form-label">Your Email Address</label>
+                <input type="email" id="senderEmail" class="form-control" placeholder="e.g. sarah@technology.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderSubject" class="form-label">Subject</label>
+                <input type="text" id="senderSubject" class="form-control" placeholder="e.g. Embedded Firmware Engineer Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="senderMessage" class="form-label">Message / Project Description</label>
+                <textarea id="senderMessage" class="form-control" placeholder="Hi Sonu, I reviewed your e-Yantra AIR 5 project and nRF52 experience..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Transmit Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================================================================
+       SITE FOOTER
+       ================================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <div style="font-family:var(--font-mono); font-weight:700; color:var(--text-primary); margin-bottom:0.25rem;">
+          SONU SWATHWICK ANDE
+        </div>
+        <div style="font-size:0.8rem; color:var(--text-muted);">
+          Embedded Systems Engineer • Firmware Developer • Robotics Enthusiast
+        </div>
+      </div>
+
+      <div class="footer-note">
+        ⚡ Zero Bloat • 100% Deterministic • Built with Pure HTML5, CSS3 &amp; ES6
+      </div>
+
+      <div style="font-size:0.8rem; color:var(--text-muted);">
+        © 2026 Sonu Swathwick Ande. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- =================================================================
+       PROJECT DETAIL MODAL (DYNAMIC DEEP DIVE)
+       ================================================================= -->
+  <div id="projectModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalProjectTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modalProjectTitle" class="modal-title">Project Title</h3>
+        <button class="modal-close-btn modal-close-trigger" aria-label="Close modal">&times;</button>
+      </div>
+      <div id="modalProjectBody" class="modal-body">
+        <!-- Injected dynamically via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================
+       RESUME VIEWER MODAL
+       ================================================================= -->
+  <div id="resumeModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalResumeTitle">
+    <div class="modal-dialog" style="max-width: 850px;">
+      <div class="modal-header">
+        <h3 id="modalResumeTitle" class="modal-title">Sonu Swathwick Ande — Curriculum Vitae</h3>
+        <button class="modal-close-btn modal-close-trigger" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; padding-bottom:1rem; border-bottom:1px solid var(--border-subtle);">
+          <div>
+            <h4 style="font-size:1.2rem; color:var(--text-primary);">Sonu Swathwick Ande</h4>
+            <p style="font-size:0.85rem; color:var(--accent-cyan); font-family:var(--font-mono);">
+              Embedded Systems Engineer | Firmware Developer | Robotics Enthusiast
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem;">
+            <button onclick="window.print()" class="btn btn-sm btn-secondary">
+              🖨️ Print / Save PDF
+            </button>
+            <a href="https://linkedin.com/in/sonuande" target="_blank" class="btn btn-sm btn-primary">
+              Connect on LinkedIn
+            </a>
+          </div>
+        </div>
+
+        <!-- Structured Resume Content -->
+        <div style="font-family:var(--font-sans); font-size:0.9rem; color:var(--text-secondary); line-height:1.65; display:flex; flex-direction:column; gap:1.25rem;">
+          
+          <div>
+            <h5 style="font-family:var(--font-mono); font-size:0.9rem; color:var(--accent-emerald); text-transform:uppercase; margin-bottom:0.4rem;">
+              Executive Profile
+            </h5>
+            <p>
+              Electronics &amp; Communication Engineering undergraduate at RGUKT Ongole with strong hands-on expertise in embedded firmware development, low-level microcontroller peripherals (ARM Cortex-M, Nordic nRF52, STM32, ESP32), hardware validation, and autonomous robotics. Achieved All India Rank 5 in the national e-Yantra Robotics Competition and delivered an estimated 80% testing effort reduction through automated hardware validation during an onsite internship at RYMO Technologies.
+            </p>
+          </div>
+
+          <div>
+            <h5 style="font-family:var(--font-mono); font-size:0.9rem; color:var(--accent-emerald); text-transform:uppercase; margin-bottom:0.4rem;">
+              Work Experience
+            </h5>
+            <div style="background:var(--bg-tertiary); padding:1rem; border-radius:var(--radius-sm); border:1px solid var(--border-subtle);">
+              <div style="display:flex; justify-content:space-between; font-weight:700; color:var(--text-primary);">
+                <span>Embedded Systems Intern — RYMO Technologies</span>
+                <span style="font-family:var(--font-mono); font-size:0.8rem; color:var(--accent-cyan);">June 2026 – Sept 2026</span>
+              </div>
+              <div style="font-size:0.825rem; color:var(--accent-amber); margin-bottom:0.5rem;">
+                Project Domain: Functional Electrical Stimulation (FES) Rehabilitation Device
+              </div>
+              <ul style="padding-left:1.25rem; font-size:0.85rem; display:flex; flex-direction:column; gap:0.35rem;">
+                <li>Developed and tested firmware for the Nordic nRF52832 (ARM Cortex-M4) medical stimulation platform.</li>
+                <li>Configured hardware peripherals including GPIOTE, PPI, SAADC, SPI, and EasyDMA buffers for CPU-free operation.</li>
+                <li>Modulated stimulation pulse width, frequency, and DAC voltage output parameters to strict medical tolerance limits.</li>
+                <li>Validated physical PCBs using digital oscilloscopes and logic analyzers; engineered automated test suites reducing manual testing by ~80%.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h5 style="font-family:var(--font-mono); font-size:0.9rem; color:var(--accent-emerald); text-transform:uppercase; margin-bottom:0.4rem;">
+              Education
+            </h5>
+            <div style="display:flex; flex-direction:column; gap:0.5rem;">
+              <div style="background:var(--bg-tertiary); padding:0.75rem 1rem; border-radius:var(--radius-sm); border:1px solid var(--border-subtle); display:flex; justify-content:space-between; align-items:center;">
+                <div>
+                  <strong style="color:var(--text-primary); display:block;">B.Tech in Electronics and Communication Engineering</strong>
+                  <span style="font-size:0.8rem; color:var(--text-muted);">RGUKT Ongole (Expected Graduation: 2027)</span>
+                </div>
+                <div style="font-family:var(--font-mono); font-weight:700; color:var(--accent-emerald);">CGPA: 8.4 / 10</div>
+              </div>
+              <div style="background:var(--bg-tertiary); padding:0.75rem 1rem; border-radius:var(--radius-sm); border:1px solid var(--border-subtle); display:flex; justify-content:space-between; align-items:center;">
+                <div>
+                  <strong style="color:var(--text-primary); display:block;">Pre-University Course (PUC)</strong>
+                  <span style="font-size:0.8rem; color:var(--text-muted);">RGUKT (Completed: 2023)</span>
+                </div>
+                <div style="font-family:var(--font-mono); font-weight:700; color:var(--accent-emerald);">CGPA: 9.69 / 10</div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h5 style="font-family:var(--font-mono); font-size:0.9rem; color:var(--accent-emerald); text-transform:uppercase; margin-bottom:0.4rem;">
+              Signature Projects &amp; Awards
+            </h5>
+            <ul style="padding-left:1.25rem; font-size:0.85rem; display:flex; flex-direction:column; gap:0.4rem;">
+              <li><strong>e-Yantra CropDrop Bot (AIR 5):</strong> Team lead for autonomous agricultural robotics on STM32F103, PID tracking, color detection &amp; electromagnet actuation.</li>
+              <li><strong>Nordic nRF52 Real-Time Control Platform:</strong> Peripheral-driven PPI + EasyDMA + SAADC + SPI MCP4921 DAC platform on PCA10040.</li>
+              <li><strong>NXP AIM 2025:</strong> Regional Finalist in embedded AI &amp; automotive mobility systems.</li>
+              <li><strong>4-Channel ROV Leak Detector:</strong> KiCad PCB with precision analog comparators and fail-safe marine warning logic.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="js/oscilloscope.js"></script>
+  <script src="js/terminal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
